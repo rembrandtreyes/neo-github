@@ -36,6 +36,7 @@
         "jsx-quotes": ["warn", "prefer-double"],
         "arrow-parens": ["error", "as-needed"],
         "react/react-in-jsx-scope": "off",
-        "react/jsx-one-expression-per-line": 0
+        "react/jsx-one-expression-per-line": 0,
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
     }
 }

@@ -1,6 +1,6 @@
 import Head from "next/head"
 
-const Home = test => (
+const Home = (test: string) => (
   <div className="container">
     <Head key={test}>
       <title>Create Next App</title>
